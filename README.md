@@ -1,6 +1,6 @@
 # Simple Calculator — Git Branching & Merge Conflict Demo
 
-A small browser calculator built with HTML, CSS and JavaScript. Supports addition, subtraction, multiplication, division, decimals, clear, delete and equals.
+A small browser calculator built with HTML, CSS and JavaScript. Supports addition, subtraction, multiplication, division, decimals, clear, delete and equals. Multiplication is included in the feature branch demo.
 
 ## Run the app
 1. Open `index.html` in any modern browser.
@@ -8,7 +8,7 @@ A small browser calculator built with HTML, CSS and JavaScript. Supports additio
 
 ## Git workflow demonstrated
 - `main`: stable starting version
-- `develop`: integration branch for tested features
+- `develop`: integration branch for tested features; feature branches are merged here.
 - `feature/multiply`: feature branch for calculator operations
 - A merge conflict was intentionally created in `README.md` by editing the same section on `develop` and `feature/multiply`.
 - The conflict was resolved on `develop`, then the feature branch was merged.
