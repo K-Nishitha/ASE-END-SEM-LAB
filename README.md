@@ -8,7 +8,7 @@ A small browser calculator built with HTML, CSS and JavaScript. Supports additio
 
 ## Git workflow demonstrated
 - `main`: stable starting version
-- `develop`: integration branch
+- `develop`: integration branch for tested features
 - `feature/multiply`: feature branch for calculator operations
 - A merge conflict was intentionally created in `README.md` by editing the same section on `develop` and `feature/multiply`.
 - The conflict was resolved on `develop`, then the feature branch was merged.
